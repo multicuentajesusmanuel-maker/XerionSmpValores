@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Valores de Armas | XerionSmp</title>
+
+<style>
+
+body{
+    background:#0d0d0d;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    color:white;
+    text-align:center;
+    min-height:100vh;
+}
+
+header{
+    padding:40px;
+    font-size:45px;
+    font-weight:bold;
+}
+
+.server{
+    color:yellow;
+}
+
+.section{
+    margin-top:40px;
+}
+
+.grid{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:40px;
+    padding-bottom:80px;
+}
+
+.card{
+    background:#1a1a1a;
+    border-radius:15px;
+    width:300px;
+    padding:35px;
+    box-shadow:0 0 15px rgba(0,0,0,0.8);
+    transition:0.3s;
+    font-size:20px;
+}
+
+.card:hover{
+    transform:scale(1.08);
+}
+
+.weapon{
+    font-size:26px;
+    font-weight:bold;
+}
+
+.eng{
+    font-size:16px;
+    color:#bbb;
+}
+
+.value{
+    margin-top:15px;
+    font-size:22px;
+    color:#00ff88;
+    font-weight:bold;
+}
+
+/* Cromático RGB */
+
+.chromatic{
+    border:3px solid;
+    animation:rgb 3s linear infinite;
+}
+
+@keyframes rgb{
+0%{border-color:red;}
+20%{border-color:orange;}
+40%{border-color:yellow;}
+60%{border-color:lime;}
+80%{border-color:cyan;}
+100%{border-color:magenta;}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+Valores de Armas de <span class="server">XerionSmp</span>
+</header>
+
+<div class="section">
+<h2>Armas</h2>
+
+<div class="grid">
+
+<div class="card">
+<div class="weapon">Guadaña Dorada</div>
+<div class="eng">Golden Scythe</div>
+<div class="value">100 X</div>
+</div>
+
+<div class="card">
+<div class="weapon">Espíritu Minero</div>
+<div class="eng">Spirit Miner</div>
+<div class="value">80 X</div>
+</div>
+
+</div>
+</div>
+
+<div class="section">
+<h2>Armas Cromáticas</h2>
+
+<div class="grid">
+
+<div class="card chromatic">
+<div class="weapon">Guadaña Dorada Cromática</div>
+<div class="eng">Chromatic Golden Scythe</div>
+<div class="value">700 X</div>
+</div>
+
+<div class="card chromatic">
+<div class="weapon">Espíritu Minero Cromático</div>
+<div class="eng">Chromatic Spirit Miner</div>
+<div class="value">450 X</div>
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
